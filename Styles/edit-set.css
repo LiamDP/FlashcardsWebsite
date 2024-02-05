@@ -1,0 +1,91 @@
+body {
+  color: #F5F5F5;
+  text-align: center;
+  font-family: Arial;
+  background: #0a092d;
+ }
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px 150px 50px;
+  justify-content: center;
+  align-items:stretch;
+  text-align: left;
+}
+
+.pageTitle {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #F5F5F5
+}
+
+::placeholder {
+  color: #CCCCCC;
+}
+
+.title,
+.input {
+  color: white;
+  font-size: 20px;
+  border-style:groove;
+  border-width: 3px;
+  border-color: white;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.input {
+  padding: 5px 10px;
+  padding-top: 3px;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+
+.button {
+  margin-top: 10px;
+  border-color: white;
+  border-style:solid;
+  border-width: 2px;
+  border-radius: 100px;
+  color: white;
+  background: #201c2c;
+  cursor: pointer;
+  padding: 5px 10px;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.button:hover, .deleteButton:hover {
+  background-color: #2f283f;
+  border-style: dashed;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.deleteButton {
+  display: flex;
+  width: 50px;
+  font-size: 20px;
+  border-color: white;
+  border-style:solid;
+  border-width: 2px;
+  border-radius: 100px;
+  color: white;
+  background-color:#201c2c;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.confirmButton {
+  font-size: 20px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DP Flashcards</title>
+    <link rel="stylesheet" href="Styles/createSet.css">
+  </head>
+  <body>
+    <p class="pageTitle">Creating New Flashcard Set</p>
+    
+    <input placeholder="Enter the flashcard title" id="title" class="title"><br>
+    <input placeholder="Enter word" class="wordInput input" id="wordInput"></input> 
+    <input placeholder="Enter definition" class="definitionInput input" onkeydown="
+    pressedEnter(event);
+    "></input> 
+    <button onclick="addNewCard()" class="input buttons confirmButton">&#9989;</button><br>
+
+    <div class="cardsList grid" id="cardsList"></div>
+    <button class="saveFlashcardButton buttons" onclick="saveFlashcard()">Save Flashcard</button> 
+
+    <script src="Scripts/create-set.js">
+      renderFlashcard();
+    </script>
+  </body>
+</html>

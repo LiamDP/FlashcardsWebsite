@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DP Flashcards</title>
+    <link rel="stylesheet" href="Styles/homepage.css" />
+  </head>
+  <body onload="initiateHomePage()">
+    <p class="pageTitle">Homepage</p>
+
+    <div class="titleList Grid" id="titleList">
+      <h1 class="listTitle">My Flashcards</h1>
+      <div id="titleListEmbedded" class="titleListEmbedded grid"></div>
+      <button
+        onclick="
+      window.location.href = 'create-set.html';
+    "
+        class="grid button createButton"
+      >
+        Create Flashcard
+      </button>
+    </div>
+
+    <script src="scripts/homepage.js"></script>
+  </body>
+</html>
