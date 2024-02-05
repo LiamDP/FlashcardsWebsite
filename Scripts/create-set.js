@@ -62,6 +62,6 @@ function saveFlashcard() {
     allFlashcardLists.push(flashcardList);
   }
   localStorage.setItem('allFlashcardLists', JSON.stringify(allFlashcardLists));
-  window.location.href = 'flashcard-app.html';
+  window.location.href = 'index.html';
 }
 
